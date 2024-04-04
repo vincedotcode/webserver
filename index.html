@@ -6,30 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Server Assignment</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Additional custom styles if needed */
+        .gradient-header {
+            background-image: linear-gradient(to right, #667eea, #764ba2);
+        }
+    </style>
 </head>
 
-<body>
-    <div class="min-h-screen flex flex-col justify-between">
-        <div class="max-w-md mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
-            <header class="bg-zinc-800 text-white p-4">
-                <h1 class="text-2xl">Vince Erkadoo</h1>
-                <h2 class="text-lg">Darshini Sunchowa</h2>
+<body class="bg-gray-100">
+    <div class="min-h-screen flex flex-col justify-between items-center pt-8 pb-8">
+        <div class="max-w-md w-full bg-white shadow-xl rounded-xl overflow-hidden border border-gray-200">
+            <header class="gradient-header text-white p-6 text-center">
+                <h1 class="text-3xl font-bold">Vince Erkadoo</h1>
+                <h2 class="text-xl mt-2">Darshini Sunchowa</h2>
             </header>
 
-            <main class="flex-1 flex items-center justify-center p-4">
-                <p class="text-center text-lg">
-                    Hello all, this is a website created by Vince Erkadoo and Darshini Sunchowa
+            <main class="flex-1 p-6">
+                <p class="text-center text-lg font-medium">
+                    Hello all, this is a website created by Vince Erkadoo and Darshini Sunchowa for the assignment : Configuring Apache2 for HTTPS
                 </p>
             </main>
 
-            <footer class="bg-zinc-800 text-white p-4 text-center">
+            <footer class="gradient-header text-white p-6 text-center">
                 Made with love <span>&#x2764;</span> by
                 <a href="https://vincedotcode.netlify.app" target="_blank" rel="noopener noreferrer"
-                    class="underline">vincedotcode</a> and darshini
+                    class="underline hover:text-gray-200 transition duration-300 ease-in-out">vincedotcode</a> and Darshini
             </footer>
         </div>
     </div>
-
 </body>
 
 </html>
